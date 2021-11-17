@@ -256,15 +256,15 @@ td {
 }
 
 #topic-1 svg, #topic-3 svg {
-  transform: rotate(75deg);
+  transform: rotate(78deg);
 }
 
 #topic-2 svg {
-  transform: rotate(128deg);
+  transform: rotate(125deg);
 }
 
 #topic-4 svg {
-  transform: rotate(141deg);
+  transform: rotate(138deg);
 }
 
 svg textPath {
@@ -588,8 +588,8 @@ svg textPath {
 /* texonomy */
 
 #texonomy .speech-bubble {
-  top: 129%;
-  height: 15vh;
+  top: 151%;
+  height: 19vh;
 }
 
 #blum {
@@ -685,8 +685,8 @@ svg textPath {
 }
 
 #rules .speech-bubble {
-  top: 97%;
-  height: 17vh;
+  top: 95%;
+  height: 15vh;
 }
 
 /* bow-exer */
