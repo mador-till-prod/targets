@@ -63,6 +63,7 @@ body, #main {
   color: rgb(60, 60, 59);
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  line-height: 5.2vw;
 }
 
 .big-bubble {
@@ -588,8 +589,8 @@ svg textPath {
 /* texonomy */
 
 #texonomy .speech-bubble {
-  top: 151%;
-  height: 19vh;
+  top: 152%;
+  height: 17vh;
 }
 
 #blum {
@@ -685,8 +686,8 @@ svg textPath {
 }
 
 #rules .speech-bubble {
-  top: 95%;
-  height: 15vh;
+  top: 93%;
+  height: 13vh;
 }
 
 /* bow-exer */
