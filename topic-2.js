@@ -1,1 +1,89 @@
-var _0x5c77=["\u05DC\u05D0\x20\u05DE\u05E0\u05D5\u05E1\u05D7\u05EA\x20\u05DB\u05D1\u05D9\u05E6\u05D5\u05E2\x20\u05E9\u05DC\x20\u05D4\u05DC\u05D5\u05DE\u05D3","\u05D0\u05D9\u05E0\u05D4\x20\u05D1\u05E8\u05D5\u05E8\u05D4\x20\u05D5\u05D7\u05D3\x20\u05DE\u05E9\u05DE\u05E2\u05D9\u05EA","\u05D0\u05D9\u05E0\u05D4\x20\u05D1\u05E2\u05DC\u05EA\x20\u05D3\u05E8\u05DA\x20\u05DE\u05D3\u05D9\u05D3\u05D4","\u05DC\u05D0\x20\u05E8\u05D9\u05D0\u05DC\u05D9\u05EA","\u05DE\u05D8\u05E8\u05EA\x20\u05D4\u05E2\u05DC","\u05DE\u05D8\u05E8\u05D5\u05EA\x20\u05D1\u05D9\u05E0\u05D9\u05D9\u05DD","\u05D7\u05D9\u05D9\u05DC","\u05D9\u05D2\u05D3\u05D9\u05E8","\u05D9\u05EA\u05E8\u05D2\u05DC","\u05D9\u05D3\u05E2\x20\u05DC\u05D1\u05E6\u05E2","\x6C\x65\x6E\x67\x74\x68","\x73\x65\x6C\x65\x63\x74\x6D\x65\x6E\x75","\x23\x64\x72\x6F\x70\x2D\x64\x6F\x77\x6E\x2D","","\x64\x69\x73\x70\x6C\x61\x79","\x6E\x6F\x6E\x65","\x63\x73\x73","\x23\x70\x72\x65\x76","\x23\x6E\x65\x78\x74","\x62\x6C\x6F\x63\x6B","\x23\x63\x68\x65\x63\x6B","\x63\x6C\x69\x63\x6B","\x6F\x6E","\x62\x6F\x72\x64\x65\x72\x2D\x63\x6F\x6C\x6F\x72","\x2D\x62\x75\x74\x74\x6F\x6E\x2E\x75\x69\x2D\x62\x75\x74\x74\x6F\x6E","\x72\x67\x62\x28\x35\x32\x2C\x20\x32\x34\x30\x2C\x20\x39\x33\x29","\x74\x65\x78\x74","\x2D\x62\x75\x74\x74\x6F\x6E\x20\x2E\x75\x69\x2D\x73\x65\x6C\x65\x63\x74\x6D\x65\x6E\x75\x2D\x74\x65\x78\x74","\x64\x69\x73\x61\x62\x6C\x65","\x6F\x70\x61\x63\x69\x74\x79","\x31","\u05D1\u05D7\u05E8\x2F\u05D9\x2E\x2E\x2E","\x72\x67\x62\x28\x32\x35\x35\x2C\x20\x31\x31\x33\x2C\x20\x31\x33\x32\x29","\u05D3\u05D9\u05D9\u05E7\u05EA\u05DD\x21","\x23\x64\x72\x6F\x70\x64\x6F\x77\x6E\x2D\x65\x78\x65\x72\x20\x2E\x73\x70\x65\x65\x63\x68\x2D\x62\x75\x62\x62\x6C\x65","\x66\x6F\x6E\x74\x2D\x73\x69\x7A\x65","\x34\x72\x65\x6D","\x70\x6F\x70\x5F\x72\x65\x6D\x6F\x76\x65\x45\x78\x65\x72\x28\x31\x29","\x70\x75\x73\x68","\x66\x75\x6E\x63\x74\x69\x6F\x6E\x73","\u05DC\u05D0\x20\u05D3\u05D9\u05D9\u05E7\u05EA\u05DD\x2E\x2E\x2E\x20\u05E0\u05E1\u05D5\x20\u05E9\u05D5\u05D1\x21","\x33\x72\x65\x6D"];var curr_bow=0;var arr_bow=[{number:1,bowTitle:_0x5c77[0]},{number:2,bowTitle:_0x5c77[1]},{number:3,bowTitle:_0x5c77[2]},{number:4,bowTitle:_0x5c77[3]}];var curr_quiver=0;var arr_quiver=[{number:1},{number:2},{number:3},{number:4}];const arrDropDown=[_0x5c77[4],_0x5c77[5],_0x5c77[6],_0x5c77[7],_0x5c77[6],_0x5c77[8],_0x5c77[6],_0x5c77[9]];var currDropDown=0;dropDownInit= ()=>{for(let _0x2cd7x7=1;_0x2cd7x7<= arrDropDown[_0x5c77[10]];_0x2cd7x7++){$(`${_0x5c77[12]}${_0x2cd7x7}${_0x5c77[13]}`)[_0x5c77[11]]()};$(_0x5c77[17])[_0x5c77[16]](_0x5c77[14],_0x5c77[15]);$(_0x5c77[18])[_0x5c77[16]](_0x5c77[14],_0x5c77[15]);$(_0x5c77[20])[_0x5c77[16]](_0x5c77[14],_0x5c77[19]);$(_0x5c77[20])[_0x5c77[22]](_0x5c77[21],checkDropDown)};checkDropDown= ()=>{for(let _0x2cd7x7=1;_0x2cd7x7<= arrDropDown[_0x5c77[10]];_0x2cd7x7++){if($(`${_0x5c77[12]}${_0x2cd7x7}${_0x5c77[24]}`)[_0x5c77[16]](_0x5c77[23])!== _0x5c77[25]){if($(`${_0x5c77[12]}${_0x2cd7x7}${_0x5c77[27]}`)[_0x5c77[26]]()=== arrDropDown[_0x2cd7x7- 1]){$(`${_0x5c77[12]}${_0x2cd7x7}${_0x5c77[24]}`)[_0x5c77[16]](_0x5c77[23],_0x5c77[25]);currDropDown++;$(`${_0x5c77[12]}${_0x2cd7x7}${_0x5c77[13]}`)[_0x5c77[11]](_0x5c77[28]);$(`${_0x5c77[12]}${_0x2cd7x7}${_0x5c77[24]}`)[_0x5c77[16]](_0x5c77[29],_0x5c77[30])}else {if($(`${_0x5c77[12]}${_0x2cd7x7}${_0x5c77[27]}`)[_0x5c77[26]]()!== _0x5c77[31]){$(`${_0x5c77[12]}${_0x2cd7x7}${_0x5c77[24]}`)[_0x5c77[16]](_0x5c77[23],_0x5c77[32])}}}};feedbackDropDown()};feedbackDropDown= ()=>{if(currDropDown=== arrDropDown[_0x5c77[10]]){$(_0x5c77[17])[_0x5c77[16]](_0x5c77[14],_0x5c77[19]);$(_0x5c77[18])[_0x5c77[16]](_0x5c77[14],_0x5c77[19]);$(_0x5c77[20])[_0x5c77[16]](_0x5c77[14],_0x5c77[15]);$(_0x5c77[34])[_0x5c77[26]](_0x5c77[33]);$(_0x5c77[34])[_0x5c77[16]](_0x5c77[35],_0x5c77[36]);ArrPages[nPage- 1][_0x5c77[39]][_0x5c77[38]](_0x5c77[37])}else {$(_0x5c77[34])[_0x5c77[26]](_0x5c77[40]);$(_0x5c77[34])[_0x5c77[16]](_0x5c77[35],_0x5c77[41])}}
+// represents the exerType number in the array
+var curr_bow = 0;
+var arr_bow = [
+    {
+        number: 1,
+        bowTitle: "לא מנוסחת כביצוע של הלומד"
+    },
+    {
+        number: 2, 
+        bowTitle: "לא מכילה מדד כמותי"
+    },
+    {
+        number: 3, 
+        bowTitle: "לא מכילה מדד איכותי"
+    },
+    {
+        number: 4,
+        bowTitle: "הביצוע לא ניתן למדידה ותצפית"
+    },
+    {
+        number: 5, 
+        bowTitle: "לא מגדירה את עצם הלמידה"
+    },
+    {
+        number: 6, 
+        bowTitle: "לא מפרידה בין רמות חשיבה"
+    },
+];
+
+var curr_quiver = 0;
+var arr_quiver = [
+    {
+        number: 1,
+    },
+    {
+        number: 2, 
+    },
+    {
+        number: 3, 
+    },
+    {
+        number: 4,
+    }
+];
+
+const arrDropDown = ["מטרת העל", "מטרות ביניים", "חייל", "יסביר", "חייל", "3", "יחבוש"];
+var currDropDown = 0;
+
+// function that activates the drop-downs and shows the check button
+dropDownInit = () => {
+    for (let i = 1; i <= arrDropDown.length; i++) {
+        $(`#drop-down-${i}`).selectmenu();
+    }
+    $("#prev").css("display", "none");
+    $("#next").css("display", "none");
+    $("#check").css("display", "block");
+    $("#check").on("click", checkDropDown);
+}
+
+checkDropDown = () => {
+    for (let i = 1; i <= arrDropDown.length; i++) {
+        // if the border is not green
+        if ($(`#drop-down-${i}-button.ui-button`).css("border-color") !== "rgb(52, 240, 93)") {
+            if ($(`#drop-down-${i}-button .ui-selectmenu-text`).text() === arrDropDown[i-1]) {
+                $(`#drop-down-${i}-button.ui-button`).css("border-color", "rgb(52, 240, 93)");
+                currDropDown++;
+                $(`#drop-down-${i}`).selectmenu("disable");
+                $(`#drop-down-${i}-button.ui-button`).css("opacity", "1");
+            } else if ($(`#drop-down-${i}-button .ui-selectmenu-text`).text() !== "בחר/י...") {
+                $(`#drop-down-${i}-button.ui-button`).css("border-color", "rgb(255, 113, 132)");
+            } 
+        }
+    }
+        feedbackDropDown();
+}
+
+feedbackDropDown = () => {
+    if (currDropDown === arrDropDown.length) {
+        $("#prev").css("display", "block");
+        $("#next").css("display", "block");
+        $("#check").css("display", "none");
+        $("#dropdown-exer .speech-bubble").text("דייקתם!");
+        $("#dropdown-exer .speech-bubble").css("font-size", "4rem");
+        ArrPages[nPage-1].functions.push('pop_removeExer(1)');
+    } else {
+        $("#dropdown-exer .speech-bubble").text("לא דייקתם... נסו שוב!");
+        $("#dropdown-exer .speech-bubble").css("font-size", "3rem");
+    }
+}
