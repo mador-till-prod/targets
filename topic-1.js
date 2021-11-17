@@ -54,6 +54,7 @@ function pop_speechBubble() {
     clicked_items = 0;
   }
   $("#" + ArrPages[nPage].divName[0] + " .change-speech-bubble").on("click", function() {
+
     let text_num = $(event.target).attr("id").slice(-1);
       // the triangle is colored (only once for each)
       if ($("#" + ArrPages[nPage].divName[0] +" .triangle-" + text_num).css("opacity") !== "1") {
@@ -69,4 +70,9 @@ function pop_speechBubble() {
         clicked_items++;
       }
   });
+}
+
+function fixZindex() {
+  $(".arrow-head").css("z-index", "0");
+  $(".triangle").css("z-index", "2");
 }
