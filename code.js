@@ -68,7 +68,7 @@ var ArrPages = [
   {
     // assessment- page 7
     divName: ["assessment"],
-    functions: ['goTwoBack(-1)', 'pop_speechBubble()', 'pop_buttons($("#topic-1"), ArrPages.findIndex(x => x.divName.includes("assessment")), "equal")', 'changeTopic(1)'], 
+    functions: ['goTwoBack(-1)', 'pop_speechBubble()', 'pop_buttons($("#topic-1"), ArrPages.findIndex(x => x.divName.includes("assessment")), "equal")', 'changeTopic(1)', 'fixZindex()'], 
     moveButtons: true, 
     lessonMap: true, 
     robinText: 'כיאה ללוחם אמיץ כמוני, אני משתמש במשולש לח"מ- לומד, חומר ומלמד.<br>לחצו על כל אחד מהמשולשים שמרכיבים את החץ כדי לקרוא עליו (לא תוכלו לעבור עמוד לפני שתלמדו על כולם).'
@@ -93,7 +93,7 @@ var ArrPages = [
   {
     // rules order- page 10
     divName: ["texonomy"],
-    functions: ["pop_speechBubble()"], 
+    functions: ["pop_speechBubble()", 'fixZindex()'], 
     moveButtons: true, 
     lessonMap: true, 
     robinText: 'לחצו על כל אחת מהרמות שמרכיבות את החץ כדי לקרוא עליה (לא תוכלו לעבור עמוד לפני שתלמדו על כולן).<br>שימו לב! לא ניתן לכתוב מטרה עם רמת חשיבה נמוכה משל קודמתה.'
@@ -433,7 +433,6 @@ Drag = () => {
       stack: "img",
       // so drag won't get stuck because of css property bottom = 0
       drag: function( event, ui ) {
-        // $(this).css("z-index", "+1");
          if (exerType === "quiver" || exerType === "lesson") {
           $(this).css({
               top: $(this).position().top,
