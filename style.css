@@ -58,7 +58,7 @@ body, #main {
 }
 
 .speech-bubble {
-  font-family: "nehama";
+  font-family: "nehama", "Rubik";
   font-size: 1.4rem;
   color: rgb(60, 60, 59);
   background-repeat: no-repeat;
@@ -248,7 +248,7 @@ td {
 }
 
 #controls svg {
-  width: 18vw;
+  width: 17vw;
   z-index: -1;
   top: -13vw;
   position: relative;
@@ -256,15 +256,15 @@ td {
 }
 
 #topic-1 svg, #topic-3 svg {
-  transform: rotate(82deg);
+  transform: rotate(75deg);
 }
 
 #topic-2 svg {
-  transform: rotate(125deg);
+  transform: rotate(128deg);
 }
 
 #topic-4 svg {
-  transform: rotate(135deg);
+  transform: rotate(141deg);
 }
 
 svg textPath {
@@ -431,7 +431,7 @@ svg textPath {
   background-color: rgba(240, 255, 255, 0.6);
 }
 
-#lesson-goals .content, #assessment .content, #wording-rules .content, #order-rules .content, #goals-example .content, #running-page .content {
+#lesson-goals .content, #assessment .content, #rules .content, #order-rules .content, #goals-example .content, #running-page .content {
   min-height: 60vh;
 }
 
@@ -440,16 +440,19 @@ svg textPath {
 }
 
 /* assesment */
-#assessment .speech-bubble {
+#assessment .speech-bubble, #rules .speech-bubble, #texonomy .speech-bubble {
   position: fixed;
   z-index: 2;
   width: 89vw;
-  height: 24vh;
   left: 50%;
-  top: 50%;
   transform: translate(-50%, -50%);
   padding: 2vh 6vw;
   background-image: url(assets/media/3הערכת\ מצב/bubble_arrowhead_big.svg);
+}
+
+#assessment .speech-bubble {
+  top: 50%;
+  height: 24vh;
 }
 
 #assessment .title {
@@ -465,47 +468,53 @@ svg textPath {
 }
 
 .triangle {
-  width: 80vw;
   position: fixed;
   z-index: 2;
   opacity: 0;
 }
 
+#assessment .triangle {
+  width: 80vw;
+}
+
 .click-triangle {
-  width: 16vw;
-  height: 17vw;
   background-color: transparent;
   position: fixed;
   z-index: 3;
 }
 
-#triangle-1 {
+#assessment .click-triangle {
+  width: 16vw;
+  height: 17vw;
+}
+
+#assessment .triangle-1 {
   bottom: -8vw;
   right: -0.8vw;
 }
 
-#triangle-2 {
+#assessment .triangle-2 {
   bottom: -7.6vw;
   right: -0.5vw;
 }
 
-#triangle-3 {
+#assessment .triangle-3 {
   bottom: -7.6vw;
   right: -1vw;
 }
 
-#click-triangle-1 {
+#assessment #click-triangle-1 {
   bottom: 50vw;
   right: 29vw;
   right: 39vw;
 }
 
-#click-triangle-2 {
+#assessment #click-triangle-2 {
   bottom: 34vw;
   right: 29vw;
 }
 
-#click-triangle-3 {
+#assessment #click-triangle-3 {
   bottom: 34vw;
   right: 29vw;
   right: 49vw;
@@ -576,10 +585,108 @@ svg textPath {
   border-radius: 8px;
 } */
 
-/* wording-rules */
+/* texonomy */
 
-#wording-rules .title, #order-rules .title{
+#texonomy .speech-bubble {
+  top: 129%;
+  height: 15vh;
+}
+
+#blum {
+  position: fixed;
+  bottom: -34vw;
+  width: 106vw;
+  right: -13vw;
+  z-index: 2;
+}
+
+
+#texonomy .click-triangle {
+  height: 7vw;
+}
+
+#texonomy .triangle-1 {
+  bottom: 31vw;
+  right: 18.5vw;
+  width: 61.8vw;
+}
+
+#texonomy .triangle-2 {
+  bottom: 37.8vw;
+  right: 22.9vw;
+  width: 53vw;
+}
+
+#texonomy .triangle-3 {
+  bottom: 44.5vw;
+  right: 26.9vw;
+  width: 45vw;
+}
+
+#texonomy .triangle-4 {
+  bottom: 51.2vw;
+  right: 31vw;
+  width: 37vw;
+}
+
+#texonomy .triangle-5 {
+  bottom: 58vw;
+  right: 35.8vw;
+  width: 27vw;
+}
+
+#texonomy .triangle-6 {
+  bottom: 64.6vw;
+  right: 39.95vw;
+  width: 19vw;
+}
+
+#texonomy #click-triangle-1 {
+  bottom: 31vw;
+  right: 23vw;
+  width: 53vw;
+}
+
+#texonomy #click-triangle-2 {
+  bottom: 37vw;
+  right: 27vw;
+  width: 45vw;
+}
+
+#texonomy #click-triangle-3 {
+  bottom: 44vw;
+  right: 31vw;
+  width: 36vw;
+}
+
+#texonomy #click-triangle-4 {
+  bottom: 51vw;
+  right: 36vw;
+  width: 27vw;
+}
+
+#texonomy #click-triangle-5 {
+  bottom: 58vw;
+  right: 39vw;
+  width: 20vw;
+}
+
+#texonomy #click-triangle-6 {
+  bottom: 65vw;
+  right: 42vw;
+  width: 14vw;
+  height: 12vw;
+}
+
+/* rules */
+
+#rules .title, #texonomy .title{
   background-color: rgba(81, 121, 252, 0.6);
+}
+
+#rules .speech-bubble {
+  top: 97%;
+  height: 17vh;
 }
 
 /* bow-exer */
@@ -666,6 +773,7 @@ svg textPath {
 
 #bow-exer .arrow {
   margin-bottom: 0.5vh;
+  margin-top: 0.5vh;
 }
 
 /* quiver */
@@ -960,7 +1068,7 @@ table {
   bottom: -0.7vw;
   position: fixed;
   z-index: 0;
-  height: 38.5vw;
+  height: 27.5vw;
   right: -5vw;
   background-image: url(assets/media/bubble_fullrobin_tall.svg);
   padding: 15vw;
