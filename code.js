@@ -109,7 +109,7 @@ var ArrPages = [
   {
     // wording rules- page 12
     divName: ["rules"],
-    functions: ["pop_speechBubble()"], 
+    functions: ["pop_removeExer(-1)", "pop_speechBubble()"], 
     moveButtons: true, 
     lessonMap: true, 
     robinText: 'לחצו על המטרה שליד כל כלל ניסוח כדי לראות דוגמאות למטרות נכונות ושגויות'
