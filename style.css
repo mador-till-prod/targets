@@ -589,7 +589,7 @@ svg textPath {
 /* texonomy */
 
 #texonomy .speech-bubble {
-  margin-top: 24vw;
+  margin-top: 22vw;
   height: 17vh;
 }
 
@@ -686,8 +686,8 @@ svg textPath {
 }
 
 #rules .speech-bubble {
-  margin-top: 18vw;
-  height: 13vh;
+  margin-top: 17vw;
+  height: 14vh;
 }
 
 /* bow-exer */
