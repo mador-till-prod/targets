@@ -96,7 +96,7 @@ var ArrPages = [
     functions: ["pop_speechBubble()"], 
     moveButtons: true, 
     lessonMap: true, 
-    robinText: 'לחצו על כל אחת מהרמות שמרכיבות את החץ כדי לקרוא עליה (לא תוכלו לעבור עמוד לפני שתלמדו על כולן)'
+    robinText: 'לחצו על כל אחת מהרמות שמרכיבות את החץ כדי לקרוא עליה (לא תוכלו לעבור עמוד לפני שתלמדו על כולן).<br>שימו לב! לא ניתן לכתוב מטרה עם רמת חשיבה נמוכה משל קודמתה.'
   },
   {
     // bow matching exercise- page 11
@@ -109,7 +109,7 @@ var ArrPages = [
   {
     // wording rules- page 12
     divName: ["rules"],
-    functions: ["pop_removeExer(-1)", "pop_speechBubble()"], 
+    functions: ["pop_speechBubble()"], 
     moveButtons: true, 
     lessonMap: true, 
     robinText: 'לחצו על המטרה שליד כל כלל ניסוח כדי לראות דוגמאות למטרות נכונות ושגויות'
