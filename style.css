@@ -220,19 +220,20 @@ td {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: nowrap;
-  height: 90%;
+  /* height: 90%; */
   width: 70vw;
-  margin-right: 1vw;
+  margin-right: 4vw;
+  margin-top: 2vw;
  }
 
  #lesson-map .topic {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: stretch;
-  justify-content: center;
-  width: 25%;
-  height: 100%;
-  margin-top: 13vw;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* align-items: stretch; */
+  /* justify-content: center; */
+  /* width: 25%; */
+  /* height: 100%; */
+  /* margin-top: 0vw; */
  }
 
 .lesson-map-target {
@@ -250,13 +251,13 @@ td {
 #controls svg {
   width: 17vw;
   z-index: -1;
-  top: -13vw;
+  margin-top: -22vw;
   position: relative;
-  left: -0.5vw;
+  left: 2.3vw;
 }
 
 #topic-1 svg, #topic-3 svg {
-  transform: rotate(78deg);
+  transform: rotate(84deg);
 }
 
 #topic-2 svg {
@@ -588,7 +589,7 @@ svg textPath {
 /* texonomy */
 
 #texonomy .speech-bubble {
-  top: 152%;
+  margin-top: 24vw;
   height: 17vh;
 }
 
@@ -625,14 +626,14 @@ svg textPath {
 
 #texonomy .triangle-4 {
   bottom: 51.2vw;
-  right: 31vw;
-  width: 37vw;
+  right: 31.5vw;
+  width: 36vw;
 }
 
 #texonomy .triangle-5 {
   bottom: 58vw;
-  right: 35.8vw;
-  width: 27vw;
+  right: 35.5vw;
+  width: 28vw;
 }
 
 #texonomy .triangle-6 {
@@ -685,7 +686,7 @@ svg textPath {
 }
 
 #rules .speech-bubble {
-  top: 93%;
+  margin-top: 18vw;
   height: 13vh;
 }
 
