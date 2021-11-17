@@ -101,7 +101,7 @@ var ArrPages = [
   {
     // bow matching exercise- page 11
     divName: ["quiver-exer"],
-    functions: ['pop_changeCarousel($("#prev-quiver"), "quiver", -1)', 'pop_changeCarousel($("#next-quiver"), "quiver", 1)'],
+    functions: ['pop_finishExer($("#prev-quiver"), "quiver", -1)', 'pop_finishExer($("#next-quiver"), "quiver", 1)'],
     moveButtons: false, 
     lessonMap: false, 
     robinText: "גררו את החיצים למקום הנכון בתרמיל החיצים הפתוח לפי סדר כתיבת המטרות שלמדנו"
@@ -117,7 +117,7 @@ var ArrPages = [
   {
     // bow matching exercise- page 13
     divName: ["bow-exer"],
-    functions: ['pop_changeCarousel($("#prev-bow"), "bow", -1)', 'pop_changeCarousel($("#next-bow"), "bow", 1)'],
+    functions: ['pop_finishExer($("#prev-bow"), "bow", -1)', 'pop_finishExer($("#next-bow"), "bow", 1)'],
     moveButtons: false, 
     lessonMap: false, 
     robinText: "התאימו בין 4 מטרות שנוסחו לא נכון (החיצים), לבין כללי הניסוח שהופרו (הקשתות)"
@@ -149,7 +149,7 @@ var ArrPages = [
   {
     // sorting lesson's parts roles exercise- page 17
     divName: ["lesson-exer"],
-    functions: ['pop_changeCarousel($("#prev-lesson"), "lesson", -1)', 'pop_changeCarousel($("#next-lesson"), "lesson", 1)'],
+    functions: ['pop_finishExer($("#prev-lesson"), "lesson", -1)', 'pop_finishExer($("#next-lesson"), "lesson", 1)'],
     moveButtons: false,
     lessonMap: false,
     robinText: "התאימו בין חלקי השיעור (המטרות) לתפקידיהם (החיצים) באמצעות גרירה"
@@ -345,20 +345,19 @@ pop_removeExer = (exerPage) => {
 }
 
 // function that adds events listeners to bows exrcise carousel's prev and next buttons
-pop_changeCarousel = (button, exerTypeParam, indexNum) => {
+pop_finishExer = (button, exerTypeParam, indexNum) => {
   // function that changes the carrousel of the bows exercise
   button.on("click", () => {
     // exerType === "bow"/"quiver"/"lesson"
-    tali(indexNum, true);
+    changeCarousel(indexNum, true);
   });
   exerType = exerTypeParam;
   Drag();
 }
 
 // exercise's functions
-
-// generic function that disappears and reveals items in carousels
-changeCarousel = (indexNum, disappear) => {
+// function that checks if the user finished the exercise
+finishExer = (indexNum, disappear) => {
   // represents the item that appear and disappear in the html (bow/arrow)
   if (exerType === "bow") {
       finish = 2;
@@ -368,7 +367,7 @@ changeCarousel = (indexNum, disappear) => {
       finish = 0;
   }
   if (eval("arr_" + exerType).length > (finish + 1)) {
-    tali(indexNum, disappear);
+    changeCarousel(indexNum, disappear);
   }
   // if all the items are matched 
   else {
@@ -391,7 +390,8 @@ changeCarousel = (indexNum, disappear) => {
   }
 }
 
-tali = (indexNum, disappear) => {
+// generic function that disappears and reveals items in carousels
+changeCarousel = (indexNum, disappear) => {
     // represents the item that appear and disappear in the html (bow/arrow)
     if (exerType === "bow") {
       item = "bow";
@@ -513,8 +513,8 @@ removeItem = () => {
       disappear = false;
   }
   // animation of disappear
-  $.when(changeCarousel(1, disappear)).then(function() {
-      // changeCarousel function raises curr var
+  $.when(finishExer(1, disappear)).then(function() {
+      // finishExer function raises curr var
       if (window["curr_" + exerType] !== 0) {
           --window["curr_" + exerType];
       } else {
