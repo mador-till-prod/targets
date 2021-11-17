@@ -1,1 +1,72 @@
-var _0x5a4a=["\u05D4\u05D7\u05D5\u05DE\u05E8\x2D\x20\u05DB\u05EA\u05D1\u05D5\x20\u05DE\u05D4\u05D9\x20\u05E8\u05DE\u05EA\x20\u05D4\u05D7\u05D5\u05DE\u05E8\x2C\x20\u05D4\u05D0\u05DD\x20\u05D9\u05E9\x20\u05D9\u05D3\u05E2\x20\u05DE\u05E7\u05D3\u05D9\u05DD\x20\u05D4\u05E0\u05D3\u05E8\u05E9\x20\u05DC\u05D4\u05D1\u05E0\u05EA\u05D5\x2C\x20\u05E7\u05E9\u05D9\u05D9\u05DD\x20\u05D0\u05E4\u05E9\u05E8\u05D9\u05D9\u05DD\x20\u05E9\u05DC\x20\u05D4\u05D7\u05E0\u05D9\u05DB\u05D9\u05DD\x20\u05D5\u05DB\u05D3\u05D5\u05DE\u05D4\x2E\x3C\x62\x72\x3E\u05D4\u05DE\u05D9\u05D3\u05E2\x20\u05D9\u05E2\u05D6\u05D5\u05E8\x20\u05DC\u05DB\u05DD\x20\u05DC\u05D4\u05EA\u05DB\u05D5\u05E0\u05DF\x20\u05DC\u05E9\u05D9\u05E2\u05D5\u05E8\x20\x28\u05DC\u05D3\u05D5\u05D2\u05DE\u05D4\x2C\x20\u05D0\u05DD\x20\u05D0\u05EA\u05DD\x20\u05D9\u05D5\u05D3\u05E2\u05D9\u05DD\x20\u05E9\u05D9\u05E9\x20\u05D4\u05E8\u05D1\u05D4\x20\u05D7\u05D5\u05DE\u05E8\x2C\x20\u05EA\u05DB\u05D9\u05E0\u05D5\x20\u05D0\u05D5\u05EA\u05D5\x20\u05D9\u05D5\u05EA\u05E8\x20\u05D6\u05DE\u05DF\x20\u05DE\u05E8\u05D0\u05E9\x29\x2E","\u05D4\u05DC\u05D5\u05DE\u05D3\x2D\x20\u05DB\u05EA\u05D1\u05D5\x20\u05D0\u05EA\x20\u05DE\u05D0\u05E4\u05D9\u05D9\u05E0\u05D9\x20\u05D4\u05DC\u05D5\u05DE\u05D3\x20\x28\u05DC\u05DE\u05E9\u05DC\x20\u05D2\u05D9\u05DC\x20\u05D5\u05E1\u05D5\u05D2\x20\u05D0\u05D5\u05DB\u05DC\u05D5\u05E1\u05D9\u05D9\u05D4\x29\x2C\x20\u05E7\u05E9\u05D9\u05D9\x20\u05DC\u05DE\u05D9\u05D3\u05D4\x2C\x20\u05D4\u05E9\u05DC\u05D1\x20\u05D1\u05D5\x20\u05D4\u05D5\u05D0\x20\u05E0\u05DE\u05E6\u05D0\x20\u05D1\u05D4\u05DB\u05E9\u05E8\u05D4\x2C\x20\u05E0\u05E7\u05D5\u05D3\u05D5\u05EA\x20\u05D7\u05D5\u05D6\u05E7\x2C\x20\u05D7\u05D5\u05DC\u05E9\u05D4\x20\u05D5\u05DB\u05D3\u05D5\u05DE\u05D4\x2E\x3C\x62\x72\x3E\u05D4\u05DE\u05D9\u05D3\u05E2\x20\u05D9\u05E2\u05D6\u05D5\u05E8\x20\u05DC\u05D4\u05EA\u05D0\u05D9\u05DD\x20\u05D0\u05EA\x20\u05E8\u05DE\u05EA\x20\u05D4\u05E9\u05D9\u05E2\u05D5\u05E8\x20\u05DC\u05E7\u05D4\u05DC\x20\u05D4\u05D9\u05E2\u05D3\x20\x28\u05DC\u05D3\u05D5\u05D2\u05DE\u05D4\x2C\x20\u05EA\u05D3\u05E2\u05D5\x20\u05DC\u05D4\u05E9\u05EA\u05DE\u05E9\x20\u05D1\u05E2\u05D6\u05E8\u05D9\u05DD\x20\u05D7\u05D6\u05D5\u05EA\u05D9\u05D9\u05DD\x20\u05D5\u05D1\u05DE\u05E9\u05DC\u05D1\x20\u05DC\u05E9\u05D5\u05E0\u05D9\x20\u05E0\u05DE\u05D5\u05DA\x20\u05D9\u05D5\u05EA\u05E8\x20\u05D1\u05E9\u05D9\u05E2\u05D5\u05E8\u05D9\u05DD\x20\u05E9\u05DE\u05D5\u05E2\u05D1\u05E8\u05D9\u05DD\x20\u05DC\u05E2\u05D5\u05DC\u05D9\u05DD\x20\u05D7\u05D3\u05E9\u05D9\u05DD\x29\x2E","\u05D4\u05DE\u05DC\u05DE\u05D3\x2D\x20\u05DB\u05EA\u05D1\u05D5\x20\u05DE\u05D4\u05D9\x20\u05E8\u05DE\u05EA\x20\u05D4\u05E9\u05DC\u05D9\u05D8\u05D4\x20\u05E9\u05DC\u05DB\u05DD\x20\u05D1\u05D7\u05D5\u05DE\u05E8\x2C\x20\u05DE\u05D9\u05D3\u05EA\x20\u05D4\u05D4\u05D9\u05DB\u05E8\u05D5\u05EA\x20\u05E2\u05DD\x20\u05D4\u05D7\u05D9\u05D9\u05DC\u05D9\u05DD\x2C\x20\u05E0\u05E7\u05D5\u05D3\u05D5\u05EA\x20\u05D7\u05D5\u05D6\u05E7\x2C\x20\u05D7\u05D5\u05DC\u05E9\u05D4\x20\u05D5\u05DB\u05D3\u05D5\u05DE\u05D4\x2E\x3C\x62\x72\x3E\u05D4\u05DE\u05D9\u05D3\u05E2\x20\u05D9\u05E2\u05D6\u05D5\u05E8\x20\u05DC\u05D4\u05EA\u05D0\u05D9\u05DD\x20\u05D0\u05EA\x20\u05E2\u05E6\u05DE\u05DB\u05DD\x20\u05DC\u05D4\u05E9\u05D2\u05EA\x20\u05DE\u05D8\u05E8\u05EA\x20\u05D4\u05E9\u05D9\u05E2\u05D5\u05E8\x20\x28\u05DC\u05D3\u05D5\u05D2\u05DE\u05D4\x2C\x20\u05D0\u05DD\x20\u05E7\u05E9\u05D4\x20\u05DC\u05DB\u05DD\x20\u05DC\u05DC\u05DE\u05D3\x20\u05D1\u05E8\u05E6\u05E3\x20\u05D4\u05E8\u05D1\u05D4\x20\u05D7\u05D5\u05DE\u05E8\x2C\x20\u05EA\u05D5\u05DB\u05DC\u05D5\x20\u05DC\u05E0\u05E1\u05D5\u05EA\x20\u05DC\u05E9\u05DC\u05D1\x20\u05DE\u05E9\u05D7\u05E7\u05D9\u05DD\x20\u05D0\u05D5\x20\u05DC\u05DE\u05D9\u05D3\u05D4\x20\u05E2\u05E6\u05DE\u05D9\u05EA\x20\u05D1\u05DE\u05D4\u05DC\u05DA\x20\u05D4\u05E9\u05D9\u05E2\u05D5\u05E8\x29\x2E","\x2E\x63\x6F\x6E\x74\x72\x6F\x6C\x2D\x62\x75\x74\x74\x6F\x6E","\x6E\x6F\x6E\x65","\x63\x6C\x69\x63\x6B","\x73\x6C\x69\x63\x65","\x69\x64","\x61\x74\x74\x72","\x74\x61\x72\x67\x65\x74","\x6F\x70\x61\x63\x69\x74\x79","\x63\x73\x73","\x23\x74\x72\x69\x61\x6E\x67\x6C\x65\x2D","\x31","\x74\x72\x69\x61\x6E\x67\x6C\x65\x5F","\x68\x74\x6D\x6C","\x23\x61\x73\x73\x65\x73\x73\x6D\x65\x6E\x74\x20\x2E\x73\x70\x65\x65\x63\x68\x2D\x62\x75\x62\x62\x6C\x65","\x6C\x65\x6E\x67\x74\x68","\x6B\x65\x79\x73","\x61\x75\x74\x6F","\x72\x6F\x62\x69\x6E\x54\x65\x78\x74","\u05DB\u05D9\u05D0\u05D4\x20\u05DC\u05DC\u05D5\u05D7\u05DD\x20\u05D0\u05DE\u05D9\u05E5\x20\u05DB\u05DE\u05D5\u05E0\u05D9\x2C\x20\u05D0\u05E0\u05D9\x20\u05DE\u05E9\u05EA\u05DE\u05E9\x20\u05D1\u05DE\u05E9\u05D5\u05DC\u05E9\x20\u05DC\u05D7\x22\u05DE\x2D\x20\u05DC\u05D5\u05DE\u05D3\x2C\x20\u05D7\u05D5\u05DE\u05E8\x20\u05D5\u05DE\u05DC\u05DE\u05D3\x2E\x3C\x62\x72\x3E\u05DC\u05D7\u05E6\u05D5\x20\u05E2\u05DC\x20\u05DB\u05DC\x20\u05D0\u05D7\u05D3\x20\u05DE\u05D4\u05DE\u05E9\u05D5\u05DC\u05E9\u05D9\u05DD\x20\u05E9\u05DE\u05E8\u05DB\u05D9\u05D1\u05D9\u05DD\x20\u05D0\u05EA\x20\u05D4\u05D7\u05E5\x20\u05DB\u05D3\u05D9\x20\u05DC\u05E7\u05E8\u05D5\u05D0\x20\u05E2\u05DC\u05D9\u05D5\x2E","\x6C\x6F\x74\x65\x68","\x6C\x6F\x67","\x6F\x6E","\x2E\x63\x6C\x69\x63\x6B\x2D\x74\x72\x69\x61\x6E\x67\x6C\x65"];const triangle_text={triangle_1:_0x5a4a[0],triangle_2:_0x5a4a[1],triangle_3:_0x5a4a[2]};let colored_triangles=0;function pop_changeTriangle(){disabledButton($(_0x5a4a[3]),_0x5a4a[4]);$(_0x5a4a[25])[_0x5a4a[24]](_0x5a4a[5],function(){let _0xa8f1x4=$(event[_0x5a4a[9]])[_0x5a4a[8]](_0x5a4a[7])[_0x5a4a[6]](-1);if($(_0x5a4a[12]+ _0xa8f1x4)[_0x5a4a[11]](_0x5a4a[10])!== _0x5a4a[13]){$(_0x5a4a[12]+ _0xa8f1x4)[_0x5a4a[11]](_0x5a4a[10],_0x5a4a[13]);colored_triangles++};$(_0x5a4a[16])[_0x5a4a[15]](triangle_text[_0x5a4a[14]+ _0xa8f1x4]);if(colored_triangles=== Object[_0x5a4a[18]](triangle_text)[_0x5a4a[17]]){disabledButton($(_0x5a4a[3]),_0x5a4a[19]);ArrPages[nPage][_0x5a4a[20]]= _0x5a4a[21];colored_triangles++;console[_0x5a4a[23]](_0x5a4a[22])}})}
+const assessment_text = {
+  text_1: "החומר- כתבו מהי רמת החומר, האם יש ידע מקדים הנדרש להבנתו, קשיים אפשריים של החניכים וכדומה.<br>המידע יעזור לכם להתכונן לשיעור (לדוגמה, אם אתם יודעים שיש הרבה חומר, תכינו אותו יותר זמן מראש).",
+  text_2: "הלומד- כתבו את מאפייני הלומד (למשל גיל וסוג אוכלוסייה), קשיי למידה, השלב בו הוא נמצא בהכשרה, נקודות חוזק, חולשה וכדומה.<br>המידע יעזור להתאים את רמת השיעור לקהל היעד (לדוגמה, תדעו להשתמש בעזרים חזותיים ובמשלב לשוני נמוך יותר בשיעורים שמועברים לעולים חדשים).",
+  text_3: "המלמד- כתבו מהי רמת השליטה שלכם בחומר, מידת ההיכרות עם החיילים, נקודות חוזק, חולשה וכדומה.<br>המידע יעזור להתאים את עצמכם להשגת מטרת השיעור (לדוגמה, אם קשה לכם ללמד ברצף הרבה חומר, תוכלו לנסות לשלב משחקים או למידה עצמית במהלך השיעור)."
+}
+
+const rules_text = {
+  text_1: "ניסוח נכון: החניך יפרט את חלקי הנשק.<br>ניסוח לא נכון: המדריך יפרט את חלקי הנשק.",
+  text_2: "ניסוח נכון: החניך ירוץ 2000 מטר ב-10 דקות.<br>ניסוח לא נכון: החניך ירוץ 2000 מטר.",
+  text_3: "ניסוח נכון: החניך יכתוב מערך על פי הכללים שנלמדו.<br>ניסוח לא נכון: החניך יכתוב מערך היטב.",
+  text_4: "ניסוח נכון: החניך יסביר את מנגנון ה-M16.<br>ניסוח לא נכון: החניך יבין את מנגנון ה-M16.",
+  text_5: "ניסוח נכון: החניך יפרק M16 על פי העקרונות שנלמדו.<br>ניסוח לא נכון: החניך יתרגל פירוק M16 על פי העקרונות שנלמדו.",
+  text_6: 'ניסוח נכון:<br> החניך יפרט סד"פ M16.<br>החניך יתפעל M16 על פי העקרונות שלמד .<br>ניסוח לא נכון: החניך יפרט סד"פ ויתפעל M16.'
+}
+
+const texonomy_text = {
+  text_1: "ידע- היכולת לשלוף מהזכירון מידע רלוונטי.<br>בכתיבת המטרה נשתמש בפעלים: יפרט, יגדיר, יציין, יזהה, ידקלם וכו'.",
+  text_2: "הבנה- היכולת להסביר ולתרגם ידע.<br>בכתיבת המטרה נשתמש בפעלים: יסביר, יפרש, יגדיר במילים שלו, יתרגם וכו'.",
+  text_3: "יישום- היכולת להשתמש בידע פשוט במצבים שונים, הדומים במידה רבה לאלו שנלמדו.<br>בכתיבת המטרה נשתמש בפעלים: יבצע, יתפעל, ישתמש וכו'.",
+  text_4: "אנליזה- היכולת לראות את הפרטים כמכלול, לנתחם ולהפיק משמעויות.<br>בכתיבת המטרה נשתמש בפעלים: יאתר, יפריד, יסווג, יבדיל וכו'.",
+  text_5: "סינתזה- היכולת ליצור מכלול שלם והגיוני מפרטים רבים, ולגבש פתרון/תוכנית מקורית.<br>בכתיבת המטרה נשתמש בפעלים: ירכיב, ימציא, יכתוב ,יתכנן, יבנה, ינסח וכו'.",
+  text_6: "הערכה- היכולת לשפוט ולבחור בין אלטרנטיבות.<br>בכתיבת המטרה נשתמש בפעלים: יבחר, יעריך, ישפוט, ייתן ציון, יחליט, ישווה וכו'."
+}
+
+let clicked_items = 0;
+
+// function pop_changeTriangle() {
+//   // disable moving page
+//   disabledButton($(".control-button"), "none");
+//   $(".click-triangle").on("click", function() {
+//     let triangle_num = $(event.target).attr("id").slice(-1);
+//     // the triangle is colored (only once for each)
+//     if ($("#triangle-" + triangle_num).css("opacity") !== "1") {
+//       $("#triangle-" + triangle_num).css("opacity", "1");
+//       clicked_items++;
+//     }
+//     // switch text from the array
+//     $("#assessment .speech-bubble").html(triangle_text["triangle_" + triangle_num]);
+//     // if all the three triangles are colored
+//       if(clicked_items === Object.keys(triangle_text).length) {
+//         disabledButton($(".control-button"), "auto");
+//         ArrPages[nPage].robinText = 'כיאה ללוחם אמיץ כמוני, אני משתמש במשולש לח"מ- לומד, חומר ומלמד.<br>לחצו על כל אחד מהמשולשים שמרכיבים את החץ כדי לקרוא עליו.';
+//         // add to the num of the triangles so it won't enter the condition again
+//         clicked_items++;
+//         console.log("loteh");
+//       }
+//   });
+// }
+
+function pop_speechBubble() {
+  // disable moving page
+  if (ArrPages[nPage].divName[0] !== "rules") {
+    disabledButton($(".control-button"), "none");
+    clicked_items = 0;
+  }
+  $("#" + ArrPages[nPage].divName[0] + " .change-speech-bubble").on("click", function() {
+    let text_num = $(event.target).attr("id").slice(-1);
+      // the triangle is colored (only once for each)
+      if ($("#" + ArrPages[nPage].divName[0] +" .triangle-" + text_num).css("opacity") !== "1") {
+        $("#" + ArrPages[nPage].divName[0] + " .triangle-" + text_num).css("opacity", "1");
+        clicked_items++;
+      }
+    // switch text from the array
+    $("#" + ArrPages[nPage].divName[0] + " .speech-bubble").html(eval(ArrPages[nPage].divName[0] + "_text")["text_" + text_num]);
+    // if all the three triangles are colored
+      if(clicked_items === Object.keys(eval(ArrPages[nPage].divName[0] + "_text")).length) {
+        disabledButton($(".control-button"), "auto");
+        // add to the num of the triangles so it won't enter the condition again
+        clicked_items++;
+      }
+  });
+}
