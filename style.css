@@ -452,8 +452,9 @@ svg textPath {
 }
 
 #assessment .speech-bubble {
-  top: 50%;
+  top: 46%;
   height: 24vh;
+  /* z-index: 1; */
 }
 
 #assessment .title {
