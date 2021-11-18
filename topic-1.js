@@ -24,29 +24,6 @@ const texonomy_text = {
 
 let clicked_items = 0;
 
-// function pop_changeTriangle() {
-//   // disable moving page
-//   disabledButton($(".control-button"), "none");
-//   $(".click-triangle").on("click", function() {
-//     let triangle_num = $(event.target).attr("id").slice(-1);
-//     // the triangle is colored (only once for each)
-//     if ($("#triangle-" + triangle_num).css("opacity") !== "1") {
-//       $("#triangle-" + triangle_num).css("opacity", "1");
-//       clicked_items++;
-//     }
-//     // switch text from the array
-//     $("#assessment .speech-bubble").html(triangle_text["triangle_" + triangle_num]);
-//     // if all the three triangles are colored
-//       if(clicked_items === Object.keys(triangle_text).length) {
-//         disabledButton($(".control-button"), "auto");
-//         ArrPages[nPage].robinText = 'כיאה ללוחם אמיץ כמוני, אני משתמש במשולש לח"מ- לומד, חומר ומלמד.<br>לחצו על כל אחד מהמשולשים שמרכיבים את החץ כדי לקרוא עליו.';
-//         // add to the num of the triangles so it won't enter the condition again
-//         clicked_items++;
-//         console.log("loteh");
-//       }
-//   });
-// }
-
 function pop_speechBubble() {
   // disable moving page
   if (ArrPages[nPage].divName[0] !== "rules") {
