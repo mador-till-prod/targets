@@ -1069,10 +1069,10 @@ table {
 
 /* american questions */
 .american-question .speech-bubble {
-  bottom: -0.7vw;
+  bottom: -5vw;
   position: fixed;
   z-index: 0;
-  height: 27.5vw;
+  height: 36.5vw;
   right: -5vw;
   background-image: url(assets/media/bubble_fullrobin_tall.svg);
   padding: 15vw;
