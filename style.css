@@ -220,18 +220,18 @@ td {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: nowrap;
-  /* height: 90%; */
+  height: 90%;
   width: 70vw;
   margin-right: 4vw;
-  margin-top: 2vw;
+  margin-top: 0vw;
  }
 
  #lesson-map .topic {
-  /* display: flex; */
-  /* flex-wrap: wrap; */
+  display: flex;
+  flex-wrap: wrap;
   /* align-items: stretch; */
-  /* justify-content: center; */
-  /* width: 25%; */
+  justify-content: center;
+  /* width: 30%; */
   /* height: 100%; */
   /* margin-top: 0vw; */
  }
@@ -239,15 +239,18 @@ td {
 .lesson-map-target {
   width: 65%;
   /* margin-top: 2vw; */
-  margin-bottom: -0.2vh;
+  /* margin-bottom: -0.2vh; */
 }
 
 .topic-text {
-  text-align: center;
-  font-family: "Rubik-Bold";
-  font-size: 6rem;
-  fill: rgb(60, 60, 59);
-  letter-spacing: -5px;
+  width: 94%;
+  margin-top: -12vw;
+  margin-right: 1vw;
+  /* text-align: center; */
+  /* font-family: "Rubik-Bold"; */
+  /* font-size: 6rem; */
+  /* fill: rgb(60, 60, 59); */
+  /* letter-spacing: -5px; */
 }
 
 #controls svg {
